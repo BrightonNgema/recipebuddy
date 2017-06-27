@@ -1,12 +1,15 @@
 <Template name="Menu">
   <h1 class="page-title">My Current Menu</h1>
   {{#each recipes}}
-        <h3>{{name}}</h3>
-        <p>{{desc}}</p>
+        {{> MenuItem}}
+      {{else}}
+      <h3>Please add <a href="/recipe-book">recipes</a> to your menu</h3>  
   {{/each}}
 </Template>
 
 <Template name="MenuItem">
     <div class="menu-item">
+      <h3>{{name}}</h3>
+      <p>{{desc}}</p>
     </div>
 </Template>
