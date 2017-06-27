@@ -20,7 +20,7 @@ shell-server@0.2.3            # Server-side component of the `meteor shell` comm
 kadira:flow-router
 kadira:blaze-layout
 erasaur:meteor-lodash
-stolinski:stylus-multi
+
 fortawesome:fontawesome
 spiderable
 fastclick
@@ -30,9 +30,11 @@ aldeed:autoform
 accounts-ui
 accounts-password
 matb33:bootstrap-glyphicons
-#msavin:jetsetter
+mquandalle:stylus
 zimme:active-route
 gwendall:auth-client-callbacks
 aldeed:collection2-core@2.0.0
 meteortoys:allthings
 datariot:ganalytics
+
+check

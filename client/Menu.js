@@ -1,11 +1,11 @@
-Template.Recipes.onCreated(function(){
+Template.Menu.onCreated(function(){
     var self = this;
     self.autorun(function(){
       self.subscribe('recipes');
     });
 });
-Template.Recipes.helpers({
+Template.Menu.helpers({
   recipes:()=> {
-    return Recipes.find({});
+    return Recipes.find({inMenu: true});
   }
 });
